@@ -25,7 +25,7 @@ public class reverseLinkedList {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ListNode aListNode = new ListNode(1);
-		for(int i = 2;i<10;i++) {
+		for(int i = 2;i<100;i++) {
 			ListNode temp = aListNode;
 			while(temp.next != null) {
 				temp = temp.next;
